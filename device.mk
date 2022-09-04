@@ -1183,9 +1183,6 @@ endif
 # It must be split into the FCM of each partition.
 DEVICE_PRODUCT_COMPATIBILITY_MATRIX_FILE := device/google/gs101/device_framework_matrix_product.xml
 
-# Install FCM not for any specific partition
-DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += device/google/gs101/device_framework_matrix.xml
-
 # Preopt SystemUI
 PRODUCT_DEXPREOPT_SPEED_APPS += SystemUIGoogle  # For internal
 PRODUCT_DEXPREOPT_SPEED_APPS += SystemUI  # For AOSP
